@@ -45,4 +45,8 @@ features:
       - "C++/C"
       - "Python"
       - "GitHub"
+    button:
+      enable: false
+      label: ""
+      link: ""
 ---
