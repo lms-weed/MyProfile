@@ -75,9 +75,9 @@ content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='un
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+description = "김동욱 & Hugo Theme"
+author = "김동욱"
+twitter = ""
 image = "images/og-image.png"
 
 
