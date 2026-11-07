@@ -1,8 +1,7 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/image-placeholder.png"
+title: "김동욱을 소개합니다."
+meta_title: "자기소개"
+description: "관심 분야와 학습 목표를 소개하는 페이지입니다."
 layout: "about"
 draft: false
 ---
