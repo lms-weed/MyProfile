@@ -12,21 +12,18 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "나의 관심 분야"
     image: "/images/service-1.png"
-    image_alt: "Illustration of interface cards: a video player, bar charts, sliders and a loading spinner"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    image_alt: "관심 분야를 나타내는 이미지"
+    content: "제가 관심을 갖고 공부하는 분야와 그 이유를 설명합니다."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "관심 분야 1"
+      - "관심 분야 2"
+      - "관심 분야 3"
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+      enable: true
+      label: "자세히 보기"
+      link: "/about/"
 
   - title: "Discover the Key Features Of Hugo"
     image: "/images/service-2.png"
