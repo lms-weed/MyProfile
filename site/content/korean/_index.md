@@ -37,17 +37,12 @@ features:
       label: ""
       link: ""
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "사용할 수 있는 기술"
     image: "/images/service-3.png"
-    image_alt: "Illustration of dashboard widgets: a line graph, sliders, a progress list and a donut chart"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    image_alt: "기술 활용을 나타내는 이미지"
+    content: "현재 학습하거나 실제로 사용한 기술과 도구를 설명합니다."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+      - "C++/C"
+      - "Python"
+      - "GitHub"
 ---
