@@ -19,4 +19,18 @@ draft: false
 이 분야에 관심을 갖게 된 이유는
 ai의 발전으로 인한 해킹의 접근성이 좋아져 그로인한 위험성이 확대되는것을 보며 그것을 조치하거나 막아내는 분야에 흥미를 느끼게 되었습니다.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+## 학습 목표
+
+앞으로 ai기술과 보안관련 기술을 학습하고 싶습니다.
+
+이를 위해 다음과 같이 실천하고 있습니다.
+
+- 여러 ai를 사용하며 ai활용능력 향상시키기
+- 보안관련 책을 구입하여 관련 자격증을 따거나 학습하기
+
+## 사용할 수 있는 기술
+
+현재 학습하거나 사용하고 있는 도구는 다음과 같습니다.
+
+- Python: [실제로 사용한 사례 없음]
+- GitHub: [실제로 사용한 사례 없음]
