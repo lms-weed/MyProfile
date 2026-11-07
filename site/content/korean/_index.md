@@ -25,18 +25,17 @@ features:
       label: "자세히 보기"
       link: "/about/"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "학습 목표"
     image: "/images/service-2.png"
-    image_alt: "Illustration of chart cards: bar charts, a donut chart and a line graph"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    image_alt: "학습 목표를 나타내는 이미지"
+    content: "앞으로 어떤 기술을 공부하고 어떻게 활용할 것인지 작성합니다."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "학습 목표 1"
+      - "학습 목표 2"
     button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      enable: false
+      label: ""
+      link: ""
 
   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"
