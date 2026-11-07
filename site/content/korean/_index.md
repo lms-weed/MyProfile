@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "동욱의 포트폴리오"
+  title: "김동욱의 포트폴리오"
   content: "컴퓨터와 프로그래밍을 공부하며 새로운 기술을 배우고 직접 구현하는 것을 좋아합니다."
   image: "/images/banner.png"
   image_alt: "Illustration of a person working on a laptop at a desk"
