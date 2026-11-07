@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "김동욱의 포트폴리오"
+  title: "동욱의 포트폴리오"
   content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jump-start your Hugo project and save valuable time."
   image: "/images/banner.png"
   image_alt: "Illustration of a person working on a laptop at a desk"
