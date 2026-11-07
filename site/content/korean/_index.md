@@ -7,8 +7,8 @@ banner:
   image_alt: "Illustration of a person working on a laptop at a desk"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    label: "나의 활동 보기"
+    link: "/blog/"
 
 # Features
 features:
