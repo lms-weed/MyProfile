@@ -4,3 +4,17 @@
 .content {
   overflow-wrap: anywhere;
 }
+
+/* 모바일 화면에서 본문 좌우 여백 유지 */
+@media (max-width: 640px) {
+  .content {
+    word-break: keep-all;
+  }
+}
+
+/* 키보드 사용 시 선택된 링크가 보이도록 처리 */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
