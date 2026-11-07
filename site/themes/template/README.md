@@ -1,282 +1,214 @@
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
+# MyProfile - 개인 포트폴리오 웹사이트
 
-<p align="center">Hugoplate is a free starter template built with Hugo and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
+김동욱의 개인 소개와 학습·프로젝트 활동을 기록하기 위해 제작한 정적 웹사이트입니다. Hugo 기반의 Hugoplate 테마를 사용하고, GitHub Pages와 GitHub Actions를 이용해 배포합니다.
 
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
+- **공개 웹사이트:** https://lms-weed.github.io/MyProfile/
+- **GitHub 저장소:** https://github.com/lms-weed/MyProfile
+- **사용 테마:** [Hugoplate](https://github.com/zeon-studio/hugoplate)
+- **테마 미리보기:** https://zeon.studio/preview?project=hugoplate
 
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a> |   <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
-    <img src="https://sitepins.com/button.svg" alt="One Click Deploy With Sitepins">
-  </a>
-</h2>
+## 1. 프로젝트 목적
 
-<p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.165.0" alt="Contributors">
-    <img alt="hugo version" src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.165.0&color=f00&logo=hugo" />
-  </a>
+이 웹사이트는 개인 소개, 관심 분야, 학습 목표, 기술 활용 경험 및 프로젝트 진행 과정을 한곳에 정리하여 공개하는 것을 목적으로 합니다. 콘텐츠는 Markdown으로 작성하고, 수정한 내용은 Git으로 관리합니다.
 
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
-  </a>
+## 2. 주요 기술
 
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
-  </a>
+| 기술 | 사용 목적 |
+|---|---|
+| Hugo Extended 0.165.0 | Markdown 콘텐츠를 정적 웹사이트로 변환 |
+| Hugoplate | 웹사이트 기본 레이아웃과 컴포넌트 제공 |
+| Tailwind CSS v4 | 화면 스타일 구성 |
+| Git / GitHub | 소스 코드 버전 관리 및 원격 저장소 관리 |
+| GitHub Actions | main 브랜치 push에 따른 자동 빌드·배포 |
+| GitHub Pages | 생성된 정적 웹사이트 공개 |
 
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
-  </a>
-</p>
+## 3. 프로젝트 폴더 구조
 
-## Table of Contents
-
-- [What's Included](#-whats-included)
-  - [Key Features](#-key-features)
-  - [15+ Pre-designed Pages](#-15-pre-designed-pages)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#-prerequisites)
-  - [Project Setup](#-project-setup)
-  - [Install Dependencies](#-install-dependencies)
-  - [Development Command](#-development-command)
-- [Customization](#-customization)
-  - [Site Config](#-site-config)
-  - [Site Params](#-site-params)
-  - [Colors and Fonts](#-colors-and-fonts)
-  - [Social Links](#-social-links)
-- [Advanced Usage](#-advanced-usage)
-- [Build And Deploy](#-build-and-deploy)
-- [Guide to Staying Compliant](#-guide-to-staying-compliant)
-- [Showcase](#-showcase)
-- [Need Customization?](#-need-customization)
-
-## 🎁 What's Included
-
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
-
-### 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Open-Remark Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-### 📦 Tech Stack
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS v4.0](https://tailwindcss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
----
-
-## 🚀 Getting Started
-
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
-
-### ⚙ Prerequisites
-
-To start using this template, you need to have some prerequisites installed on your machine.
-
-- [Hugo Extended v0.165+](https://gohugo.io/installation/)
-- [Node v22+](https://nodejs.org/en/download/)
-- [Go v1.24+](https://go.dev/doc/install)
-
-### 👉 Project Setup
-
-We built this custom script to make your project setup easier. It will create a new Hugo theme folder and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
-
-```bash
-npm run project-setup
+```text
+MyProfile/
+├── .github/
+│   ├── pages_build.py             # 의존성 준비 및 Hugo 빌드 보조 스크립트
+│   └── workflows/
+│       └── hugo-pages.yml         # GitHub Actions 자동 배포 설정
+├── .github-pages.json             # 저장소 주소, 사이트 주소, 테마 및 빌드 설정
+├── site/
+│   ├── hugo.toml                  # 사이트 제목, baseURL, 기본 언어 등
+│   ├── pages.json                 # 프로젝트 Pages 빌드 설정
+│   ├── config/_default/
+│   │   ├── languages.toml         # 한국어 언어 및 콘텐츠 폴더 설정
+│   │   ├── menus.ko.toml          # 한국어 상단·하단 메뉴
+│   │   └── params.toml            # 로고, 검색, SEO, 댓글 등 기능 설정
+│   ├── content/korean/
+│   │   ├── _index.md              # 홈페이지 배너와 주요 소개 영역
+│   │   ├── about/_index.md        # 자기소개 페이지
+│   │   ├── blog/_index.md         # 활동 목록 페이지
+│   │   ├── blog/post-1.md         # 대표 프로젝트 소개 글
+│   │   ├── authors/               # 작성자 정보
+│   │   └── sections/              # 홈페이지 하단 섹션 콘텐츠
+│   ├── data/social.json           # GitHub 등 소셜 링크
+│   ├── i18n/ko.yaml               # 한국어 인터페이스 문구
+│   ├── assets/images/             # 로고, 배너 및 콘텐츠 이미지
+│   └── themes/template/           # Hugoplate 테마 파일
+└── README.md                      # 프로젝트 설명서
 ```
 
-### 👉 Install Dependencies
+## 4. 콘텐츠 수정 방법
 
-Install all the dependencies using the following command.
+사이트 콘텐츠는 `site/content/korean/` 아래의 Markdown 파일에서 수정합니다.
 
-```bash
-npm install
+| 수정하려는 내용 | 파일 |
+|---|---|
+| 홈페이지 제목·소개·관심 분야·학습 목표 | `site/content/korean/_index.md` |
+| 자기소개 | `site/content/korean/about/_index.md` |
+| 활동 목록 제목과 설명 | `site/content/korean/blog/_index.md` |
+| 대표 프로젝트의 목적·역할·과정·결과 | `site/content/korean/blog/post-1.md` |
+| 작성자 이름과 소개 | `site/content/korean/authors/john-doe.md` |
+| 홈페이지 하단 소개 및 GitHub 버튼 | `site/content/korean/sections/call-to-action.md` |
+
+Markdown 문서의 맨 위 YAML front matter는 `---`로 시작하고 끝나야 합니다. 본문은 두 번째 `---` 아래에 작성합니다.
+
+## 5. 사이트 설정 수정 방법
+
+| 설정 | 파일 |
+|---|---|
+| 사이트 주소·제목·시간대·기본 언어 | `site/hugo.toml` |
+| 한국어 콘텐츠 폴더 | `site/config/_default/languages.toml` |
+| 메뉴 항목과 연결 주소 | `site/config/_default/menus.ko.toml` |
+| SEO·로고·검색·댓글 등의 기능 | `site/config/_default/params.toml` |
+| 소셜 링크 | `site/data/social.json` |
+| 한국어 버튼·검색 문구 | `site/i18n/ko.yaml` |
+
+현재 사이트의 기본 주소는 `https://lms-weed.github.io/MyProfile/`이며, 기본 언어는 한국어(`ko`)입니다. 프로젝트 저장소 형태로 배포하므로 `baseURL`의 `/MyProfile/` 경로를 임의로 제거하지 않습니다.
+
+## 6. 로컬 빌드 및 확인
+
+### 6-1. 필요한 개발 환경
+
+Git과 함께 다음 도구를 준비합니다. 버전은 현재 `.github/workflows/hugo-pages.yml`에 지정된 배포 환경을 기준으로 합니다.
+
+- Python 3.12
+- Node.js 24
+- Go 1.27.1
+- Hugo Extended 0.165.0
+- Dart Sass 1.105.0
+
+Hugo는 반드시 Extended 버전이어야 합니다. 설치 후 PowerShell에서 다음 명령으로 확인할 수 있습니다.
+
+```powershell
+git --version
+python --version
+node --version
+go version
+hugo version
+sass --version
 ```
 
-### 👉 Development Command
+### 6-2. 프로젝트 루트로 이동
 
-Start the development server using the following command.
+다음 명령은 `MyProfile` 저장소의 최상위 폴더에서 실행합니다.
 
-```bash
-npm run dev
+```powershell
+cd C:\Users\<사용자폴더>\Desktop\MyProfile
 ```
 
-### 🎬 Still Confused? Watch a Quick Video
+### 6-3. 빌드 의존성 준비
 
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
-
----
-
-## 📝 Customization
-
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
-
-### 👉 Site Config
-
-You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
-
-### 👉 Site Params
-
-You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
-
-### 👉 Colors and Fonts
-
-You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
-
-### 👉 Social Links
-
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
-
----
-
-## 🛠 Advanced Usage
-
-We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
-
-### 👉 Update Theme
-
-If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
-
-```bash
-npm run update-theme
+```powershell
+python .github/pages_build.py --dependencies
 ```
 
-> **Note:** This command will work after running the `project-setup` script.
+이 스크립트는 `site/`와 테마의 Node 의존성을 준비하고, 빌드에 필요한 도구를 `.pages-tools/`에 설치합니다. Hugo Extended와 Dart Sass 실행 파일은 별도로 설치되어 PATH에서 실행 가능해야 합니다.
 
-### 👉 Update Modules
+### 6-4. Hugo 빌드
 
-We have added a lot of modules to this template. You can update all the modules using the following command.
-
-```bash
-npm run update-modules
+```powershell
+python .github/pages_build.py --build
 ```
 
-### 👉 Remove Dark Mode
+빌드가 성공하면 저장소 최상위 폴더에 `public/` 출력 폴더가 생성됩니다. 홈페이지 파일은 `public/index.html`입니다.
 
-If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
-
-```bash
-npm run remove-darkmode
+```powershell
+Test-Path .\public\index.html
 ```
 
-> **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
+결과가 `True`인지 확인합니다.
 
-### 👉 Remove Multilingual
+### 6-5. 로컬 브라우저에서 확인
 
-If you want to remove multilingual from your project, you can use the following command to remove multilingual from your project.
+로컬 주소로 리소스를 확인하려면 로컬 base URL을 지정한 뒤 빌드합니다.
 
-```bash
-npm run remove-multilang
+```powershell
+$env:SITE_BASE_URL = "http://localhost:8000/"
+python .github/pages_build.py --build
+Remove-Item Env:SITE_BASE_URL
+python -m http.server 8000 --directory public
 ```
 
-> **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
+브라우저에서 `http://localhost:8000/`을 엽니다. 서버를 종료하려면 PowerShell 창에서 `Ctrl + C`를 누릅니다.
 
----
+> 이 저장소는 `.github/pages_build.py`를 이용해 빌드합니다. 초기 설정을 다시 수행하는 `npm run project-setup`은 이미 준비된 프로젝트에서 다시 실행하지 않습니다.
 
-## 🚀 Build And Deploy
+## 7. Git 사용 및 GitHub에 반영하기
 
-After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
+작업 내용은 `main` 브랜치에 커밋하고 원격 저장소에 push합니다.
 
-### 👉 Build Command
-
-To build your project locally, you can use the following command.
-
-```bash
-npm run build
+```powershell
+git status
+git add <수정한-파일-경로>
+git diff --cached --stat
+git commit -m "변경 내용을 설명하는 메시지"
+git push origin main
 ```
 
-### 👉 Deploy Site
+예를 들어 자기소개 페이지를 수정했다면 다음과 같이 실행합니다.
 
-We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
+```powershell
+git add site/content/korean/about/_index.md
+git commit -m "content: Update personal introduction"
+git push origin main
+```
 
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+커밋 메시지는 실제 변경한 내용을 설명해야 합니다. 빈 커밋이나 내용 없는 변경으로 커밋 수를 늘리지 않습니다.
 
-And if you want to host some other hosting platforms. Then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
+## 8. GitHub Pages 자동 배포
 
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
+`.github/workflows/hugo-pages.yml`은 `main` 브랜치에 push가 발생하면 자동으로 실행됩니다.
 
----
+워크플로의 주요 과정은 다음과 같습니다.
 
-<!-- edit with sitepins -->
+1. 저장소 소스 코드 checkout
+2. Python, Node.js, Go 환경 준비
+3. Hugo Extended와 Dart Sass 설치
+4. `.github/pages_build.py --dependencies` 실행
+5. GitHub Pages 설정 확인
+6. `.github/pages_build.py --build` 실행
+7. `public/` 결과물을 Pages artifact로 업로드
+8. GitHub Pages에 배포
 
-## 📝 Edit Content with CMS
+GitHub 저장소의 **Settings → Pages → Build and deployment → Source**는 **GitHub Actions**로 설정합니다.
 
-This template comes pre-configured with [**Sitepins**](https://sitepins.com?aff=hugoplate), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+- **Actions 실행 내역:** https://github.com/lms-weed/MyProfile/actions
+- **공개 사이트:** https://lms-weed.github.io/MyProfile/
 
-**How to get started:**
+배포에 실패하면 Actions에서 실패한 단계의 로그를 확인하고 원인을 수정한 뒤 다시 `main`에 push합니다.
 
-Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+## 9. 이미지와 저작권
 
-  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
-    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
-  </a>
+이미지는 `site/assets/images/`에 저장하고, 콘텐츠에서 사용하는 경로와 파일명이 실제 파일명과 일치하는지 확인합니다. 이미지에는 내용을 설명하는 대체 텍스트(alt)를 작성합니다.
 
-## 🔒 Guide to Staying Compliant
+이 프로젝트는 Hugoplate를 기반으로 제작되었습니다. 원본 테마와 라이선스 정보는 다음 링크에서 확인할 수 있습니다.
 
-### 🐞 Reporting Issues
+- Hugoplate 원본 저장소: https://github.com/zeon-studio/hugoplate
+- Hugoplate 라이선스: `site/themes/template/LICENSE`
+- 테마 제작자: Zeon Studio
 
-We use GitHub Issues as the official bug tracker for this Template. Please search [existing issues](https://github.com/zeon-studio/hugoplate/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
+테마 파일을 배포하거나 수정할 때 원본 라이선스 및 저작권 고지를 유지합니다.
 
-### 📝 License
+## 10. 참고 링크
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
----
-
-## 🌠 Showcase
-
-List of some projects people are building with [**Hugoplate**!](https://github.com/zeon-studio/hugoplate/discussions/207)
-Don't forget to add yours.
-
----
-
-## 💻 Need Customization?
-
-If you need a custom theme, theme customization, or complete website development services from scratch, you can [Hire Us](https://zeon.studio/estimate-project).
+- MyProfile 공개 사이트: https://lms-weed.github.io/MyProfile/
+- MyProfile GitHub 저장소: https://github.com/lms-weed/MyProfile
+- Hugoplate: https://github.com/zeon-studio/hugoplate
+- Hugo 공식 문서: https://gohugo.io/documentation/
+- GitHub Pages 문서: https://docs.github.com/pages
+- GitHub Actions 문서: https://docs.github.com/actions
