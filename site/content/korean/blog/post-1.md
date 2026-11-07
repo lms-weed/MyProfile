@@ -9,3 +9,7 @@ tags: ["Hugo", "GitHub Pages", "HTML", "CSS"]
 draft: false
 ---
 
+## 1. 활동 기간과 상태
+
+- 기간: 2026.11.06 ~ 2026.11.07
+- 상태: 진행 중
