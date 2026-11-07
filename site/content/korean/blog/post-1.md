@@ -61,3 +61,18 @@ GitHub 저장소와 연동하여 자동 배포를 구성할 수 있기 때문입
 
 - 웹사이트:
   https://lms-weed.github.io/MyProfile/
+
+  ## 실제 제작 결과 화면
+
+아래 이미지는 Hugo와 Hugoplate를 활용하여
+제작한 MyProfile 개인 소개 웹사이트입니다.
+
+메인 화면에 자기소개와 관심 분야를 구성하고,
+GitHub 저장소와 연결하여 웹사이트를 관리하도록
+구현하였습니다.
+
+{{< figure
+  src="images/myprofile-result.png"
+  alt="MyProfile 개인 소개 웹사이트 실제 제작 화면"
+  caption="그림 1. MyProfile 개인 포트폴리오 웹사이트 제작 결과"
+>}}
