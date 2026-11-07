@@ -1,63 +1,39 @@
-############# English navigation ##############
+# 메인 메뉴
 
-# main menu
 [[main]]
-name = "Home"
+name = "홈"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "/about"
+name = "자기소개"
+url = "/about/"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "/elements"
+name = "활동"
+url = "/blog/"
 weight = 3
 
 [[main]]
+name = "GitHub"
+url = "https://github.com/lms-weed"
 weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
 
 
-# footer menu
+# 하단 메뉴
+
 [[footer]]
-name = "About"
-url = "/about"
+name = "자기소개"
+url = "/about/"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "활동"
+url = "/blog/"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
+name = "GitHub"
+url = "https://github.com/lms-weed"
 weight = 3
