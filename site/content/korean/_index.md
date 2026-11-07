@@ -15,7 +15,7 @@ features:
   - title: "나의 관심 분야"
     image: "/images/service-1.png"
     image_alt: "관심 분야를 나타내는 이미지"
-    content: "제가 관심을 갖고 공부하는 분야와 그 이유를 설명합니다."
+    content: "제가 관심을 갖고 공부하는 분야와 그 이유를 설명"
     bulletpoints:
       - "관심 분야 1"
       - "관심 분야 2"
@@ -28,7 +28,7 @@ features:
   - title: "학습 목표"
     image: "/images/service-2.png"
     image_alt: "학습 목표를 나타내는 이미지"
-    content: "앞으로 어떤 기술을 공부하고 어떻게 활용할 것인지 작성합니다."
+    content: "앞으로 어떤 기술을 공부하고 어떻게 활용할 것인지 작성"
     bulletpoints:
       - "학습 목표 1"
       - "학습 목표 2"
@@ -40,7 +40,7 @@ features:
   - title: "사용할 수 있는 기술"
     image: "/images/service-3.png"
     image_alt: "기술 활용을 나타내는 이미지"
-    content: "현재 학습하거나 실제로 사용한 기술과 도구를 설명합니다."
+    content: "현재 학습하거나 실제로 사용한 기술과 도구를 설명"
     bulletpoints:
       - "C++/C"
       - "Python"
